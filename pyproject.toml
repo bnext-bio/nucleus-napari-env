@@ -1,0 +1,19 @@
+[project]
+name = "nucleus-napari-env"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cellpose-napari>=0.2.0",
+    "napari>=0.6.2",
+    "napari-animation>=0.0.8",
+    "napari-assistant>=0.6.0",
+    "napari-brightness-contrast>=0.1.8",
+    "napari-matplotlib>=3.0.0",
+    "napari-nikon-nd2>=0.1.3",
+    "napari-ome-zarr>=0.6.1",
+    "napari-skimage-regionprops>=0.10.1",
+    "ome-zarr>=0.12.2",
+    "pyqt5>=5.15.11",
+]
