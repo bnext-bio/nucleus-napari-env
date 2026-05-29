@@ -1,0 +1,6 @@
+#!/bin/bash
+
+NAPARI_ENV_DIR=/opt/nucleus-napari-env/
+
+cd ${NAPARI_ENV_DIR}
+uv run napari
